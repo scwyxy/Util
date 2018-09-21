@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC3B7FE52154DD7200A6EBDA /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3B7FE42154DD7200A6EBDA /* Util.m */; };
 		DC3B7FE62154DD7200A6EBDA /* Util.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC3B7FE32154DD7200A6EBDA /* Util.h */; };
+		DC3B7FEF2154F23E00A6EBDA /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3B7FEE2154F23E00A6EBDA /* HttpRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		DC3B7FE02154DD7200A6EBDA /* libUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3B7FE32154DD7200A6EBDA /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		DC3B7FE42154DD7200A6EBDA /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		DC3B7FED2154F23E00A6EBDA /* HttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		DC3B7FEE2154F23E00A6EBDA /* HttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +63,20 @@
 		DC3B7FE22154DD7200A6EBDA /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				DC3B7FEC2154F20E00A6EBDA /* Network */,
 				DC3B7FE32154DD7200A6EBDA /* Util.h */,
 				DC3B7FE42154DD7200A6EBDA /* Util.m */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		DC3B7FEC2154F20E00A6EBDA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DC3B7FED2154F23E00A6EBDA /* HttpRequest.h */,
+				DC3B7FEE2154F23E00A6EBDA /* HttpRequest.m */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC3B7FE52154DD7200A6EBDA /* Util.m in Sources */,
+				DC3B7FEF2154F23E00A6EBDA /* HttpRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
