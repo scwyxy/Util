@@ -10,6 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void (^SUCCESS)(NSString *value);
+typedef void (^FAILTURE)(NSError *error);
+
 @interface HttpRequest : NSObject
 
 @end
