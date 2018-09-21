@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "FTUtil"
-  s.version      = "0.0.5"
+  s.version      = "0.0.4"
   s.summary      = "FTUtil"
   s.description  = <<-DESC
 		   This is a library writting by me
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "faith" => "scwyxy@126.com" }
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
-  s.source       = { :git => "https://github.com/scwyxy/Util.git", :tag => "v0.0.5" }
+  s.source       = { :git => "https://github.com/scwyxy/Util.git", :tag => "v0.0.4" }
   s.source_files  = "Util", "Util/*.{h,m}", "Util/Network/*.{h,m}"
   s.requires_arc = true
 end
