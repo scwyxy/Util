@@ -15,6 +15,8 @@ typedef void (^FAILTURE)(NSError *error);
 
 @interface HttpRequest : NSObject
 
++(void)getWithUrl:(NSString*)url parameters:(NSDictionary*)parameters success:(SUCCESS)success failture:(FAILTURE)failture;
+
 @end
 
 NS_ASSUME_NONNULL_END
